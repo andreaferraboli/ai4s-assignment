@@ -10,6 +10,7 @@ Use **only** these:
 - `pandas`
 - `datasets` (Hugging Face), to load the project datasets
 - `lime`, to explain classifier predictions
+- `nltk`, for text preprocessing (stopwords, lemmatization)
 - Other Hugging Face libraries (e.g. `transformers`), **only** to import pre-trained or fine-tuned models
 
 The Python standard library is fine. If a task seems to need anything else (e.g. seaborn), ask before using it.
